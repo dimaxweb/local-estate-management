@@ -56,7 +56,6 @@ app.get('/resize', async (req: Request, res: Response, next:any) => {
   if (!width || !height || !imagePath) {
      res.status(400).send('Missing required query parameters: width, height, imagePath');
   }
-
   const parsedWidth = parseInt(width as string, 10);
   const parsedHeight = parseInt(height as string, 10);
   const __dirname = path.resolve(path.dirname(''));

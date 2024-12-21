@@ -19,6 +19,7 @@ Version 1/0
 8. Translate to russian and create russian build
 9. Add graphics (logo ,etc).
 10. Create deployment pipeline 
+
 11. State management and reflection state in url
 
 
